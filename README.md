@@ -21,4 +21,4 @@ _user_analysis_data_load.py_ --> This pyhton script can be used to laod data fro
 3. Then Execute _message_data_load.py_ python file using command : python message_data_load.py
 4. Then Execute _user_analysis_data_load.py_ using command : python user_analysis_data_load.py
 Once the above 4 steps is completed, this ensures that required tables are created in database & data is loaded from the json data format from URLs
-5. Now Finally run _sql_test.sql_ queries in data abse to get the output of queries for some scenarios that The Product Owner is interested to see the results
+5. Now Finally run _sql_test.sql_ queries in data base to get the output of queries for some scenarios that The Product Owner is interested to see the results
