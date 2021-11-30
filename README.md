@@ -2,7 +2,7 @@
 this repository contains the test details to spark
 
 # Assumptions and Constraints 
-1. In order to maintain data privacy, trid to not to load  any sensitive user information from the URL's like firstName, lastName, birthDate.
+1. In order to maintain data privacy, tried to not to load  any sensitive user information from the URL's like firstName, lastName, birthDate.
 2. While loading the data to users table from User jason file, calculated age using birthDate filed in Json data & loaded age instead of birthDate to users table.
 3. While loading the data to users table from User jason file, discard the username from email & loaded only domain from that email.
 4. While loading isSmoking filed to users table, in Json file it is having True or False values, but it is loaded as 1 or 0 to the database table, if required we can even load in same format to Data base table also.
