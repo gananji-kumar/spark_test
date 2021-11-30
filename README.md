@@ -5,7 +5,7 @@ this repository contains the test details to spark
 
 >> In the **property_files** folder it has property file with .py extension with data base connection details & one function which is used in one of .py scripts.
 
-                1. _spark_test_properties.py_ --> This file has data base connection details & one function which is used in one of .py scripts.
+1. _spark_test_properties.py_ --> This file has data base connection details & one function which is used in one of .py scripts.
 
 
 
@@ -15,7 +15,7 @@ this repository contains the test details to spark
 
                 2. _sql_test.sql_ --> This file has the sql queries for the queries for some scenarios that are asked in the document.
 
-                3. _spark_test_dervied_layer_insert_query.py_ --> This file has the insert query to insert data into user_analysis table (this can be considered as a derived                                                                   table created using users, subscription, message tables) & used in _user_analysis_data_load.py_ script.
+                3. _spark_test_dervied_layer_insert_query.py_ --> This file has the insert query to insert data into user_analysis table (this can be considered as a derived table created using users, subscription, message tables) & used in _user_analysis_data_load.py_ script.
 
 
 
