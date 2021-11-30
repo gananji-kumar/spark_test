@@ -6,6 +6,7 @@ In the **property_files** folder it has property file with .py extension with da
 
 _spark_test_properties.py_ --> This file has data base connection details & one function which is used in one of .py scripts
 
+
 In the **sql_scripts** folder it has sql queries (DDLs, DMLs) either in .sql or .py extension
 
 _spark_test_create_tables.sql_ --> This file has the DDLs (create table) statements for the data base tables
@@ -14,6 +15,7 @@ _sql_test.sql_ --> This file has the sql queries for the queries for some scenar
 
 _spark_test_dervied_layer_insert_query.py_ --> This file has the insert query to insert data into user_analysis table (this can be considered as a derived table created using users, subscription, message tables) & used in _user_analysis_data_load.py_ script
 
+
 In the **python_scripts** folder it has python scritps to load data from url & run some sql queries
 
 _user_subscription_data_load.py_ --> This python script can be used to laod data from Users URL to Users & subscription tables
@@ -21,6 +23,7 @@ _user_subscription_data_load.py_ --> This python script can be used to laod data
 _message_data_load.py_ --> This python script can be used to laod data from Message URL to message table
 
 _user_analysis_data_load.py_ --> This pyhton script can be used to laod data from users, subscription, message tables to user_analysis which is a derived table using these 3 tables 
+
 
 # Order of execution
 1. First execute the statements in _spark_test_create_tables.sql_ file in Data base to create tables
